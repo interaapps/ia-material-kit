@@ -1,0 +1,37 @@
+/*
+    - IA-MK - InteraApps Material Kit
+*/
+
+space10 { margin-top: 10px; display: block;}
+space20 { margin-top: 20px; display: block;}
+space30 { margin-top: 30px; display: block;}
+
+.block {
+    display: block;
+}
+
+.tTLowercase {
+    text-transform: lowercase;
+}
+
+.tTUppercase {
+    text-transform: uppercase;
+}
+
+.tTNormal {
+    text-transform: none;
+}
+
+[hewi] {
+    width: attr(hewi);
+    height: attr(hewi);
+}
+
+[round] {
+    border-radius: 100%;
+}
+
+.bottom-right { position: fixed; bottom: 30px; right: 30px; }
+.bottom-left { position: fixed; bottom: 30px;  left: 30px; }
+.top-right { position: fixed;   top: 30px;     right: 30px; }
+.top-left { position: fixed;    top: 30px;     left: 30px; }
